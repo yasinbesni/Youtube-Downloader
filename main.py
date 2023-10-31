@@ -1,7 +1,7 @@
 import pytube
 
-url = input("url giriniz :")
+url = input("Pleas Enter Url:")
 
-path = ""
+path = "C:/Users/File"
 
 pytube.YouTube(url).streams.get_highest_resolution().download(path)
